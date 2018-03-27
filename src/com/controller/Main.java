@@ -6,7 +6,7 @@ import com.template.App;
 
 import javax.swing.*;
 
-public class Main {
+public class Main{
     public static void main(String[] args) {
         System.out.println("toto");
         Morceau morceau = new Morceau();
@@ -15,10 +15,11 @@ public class Main {
         playList.ajouterMorceau(morceau);
         playList.afficheToi();
         System.out.println(System.getProperty("user.dir")+ "/MaMusic");
-        JFrame frame = new JFrame("App");
+
+        JFrame frame = new JFrame("Music Box");
         frame.setContentPane(new App().PanelMain);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        //frame.pack();
+        frame.pack();
         frame.setVisible(true);
     }
 }

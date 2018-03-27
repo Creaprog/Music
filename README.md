@@ -1,0 +1,1 @@
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/5cacc6a9bb3d42e8ae7c3d6aeeb8d9b2)](https://www.codacy.com/app/colin.matthias75/Music?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Creaprog/Music&amp;utm_campaign=Badge_Grade)
